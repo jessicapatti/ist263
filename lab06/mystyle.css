@@ -1,0 +1,36 @@
+h1 {
+    color: #ff0000;
+    /*hex color requires # sign */
+    /* six digits, starting with red, then green, then blue */
+}
+/*thse three selectors are psuedo selectors */
+/* colon separates the selector from it's states*/
+a:link {
+    color: #00ff00;
+}
+
+a:visited {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #8000ff;
+    background-color: #00eeff; 
+}
+
+.lookdifferent:hover {color: #999999;}
+/* above uses a class selector with the psuedo state */
+
+body {
+    background-image: url(logo-sized.png);
+    background-size: 200px;
+    background-color: #c9c9ab;
+}
+p {background-color: #ffffff;
+    padding: 20px;
+    /* space between lines */
+    margin: 50px;
+    /* space between outside of box and rest of text */
+    border: 5px solid #0000ff;
+}
+/* background color for entire page */
