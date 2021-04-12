@@ -1,0 +1,39 @@
+body {font-family:'Times New Roman', Times, serif}
+h1, h2 {color:blueviolet}
+.evenrow {background-color:mistyrose;}
+h1 {font-size:2em;}
+h2 {font-size:1.75em;}
+
+.body {
+    background-color: #e3c0ed;
+}
+
+.indexp {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 50px;
+    border: solid #1d0524;
+}
+a:link {
+    color: #000000;
+}
+a:hover {
+   background-color:  #ffffff ;
+}
+
+
+p,tr,td,li,form {color:#8a2be2}
+
+.quote {float:right;}
+.clear {clear:both;}
+header {float:right;}
+header {margin:30px}
+
+.address{float:left}
+.box1, .box2 {background-color: darkgray;
+    border-radius: 2em;
+    margin: 40px;}
+.linkedin {width: 15%;}
+.box2 {display:flex}
+.map, .form, .address, .email {margin:10px}
+.box1 {padding: 2em}
