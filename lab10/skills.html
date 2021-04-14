@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="eng">
     <head>
         <meta charset="utf-8">
         <title>Skills</title>
         <link rel="stylesheet" href="styles.css">
-        <style>table,th,td {border:1px solid purple;} </style>
+        <style>t
+        able,th,td {border:1px solid purple;} 
+        #skipbutton {
+                position: absolute;
+                /*position based on top left of viewport*/
+                left: -999px;
+                background-color: white;
+                border: 1px black;
+                /*element is off screen*/
+            }
+            #skipbutton:focus {
+                position: absolute;
+                left: 10px;
+            }
+            /*when the item is tab to*/
+        </style>
     </head>
     <body>
        <table>
