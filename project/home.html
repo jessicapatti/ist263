@@ -8,30 +8,45 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
         <style>
-            #image3 {float: left;}
-            #image4 { float: right;
-    
-            }
-            h1 {text-align: center;}
+            h1 {text-align: center; background-color: #B1A296; border-radius: 20px;}
             h2 {text-align: center;
-            color: navy;}
-            h1, h2 {font-family: 'Playfair Display', serif;}
+            color: #F5F5F5;} 
+            h1, h2, h3 {font-family: 'Playfair Display', serif;}
+            .clear {clear: both;}
+            @media only screen and (max-width: 600 px) {
+                body {background-color:#9494b8}
+                .sidebar {display: none;}
+            }
+            .form {flex: 1;order: 2;}
+            .image3 {flex: 1; order: 1;}
+            .form {background-color: #B1A296;
+            border-radius: 50px;}
+            .nav {
+                background-color: #5D5C61 ; border-radius: 10px; text-align: center;
+            }
         </style>
     </head>
 <body>
+<div class="nav">
 <nav>
-    <a href="about.html">About</a>
-    <a href="anecdote.html">Anecodote</a>
-    <a href="help.html">Relief</a>
+    <a href="about.html">About|</a>
+    <a href="anecdote.html">Anecodote|</a>
+    <a href="help.html">Relief|</a>
 </nav>
+</div>
 <h1>Cira Marie Patti Tribute</h1>
 <h2>Dedicated to my grandparents: Fran and Mike Patti & the rest of the Patti family.<h2>
-<div id="image3">
+<div class="image3">
 <img src="photo4.png" alt="" class="image1">
+   <img src="photo3.png" alt="image2">
 </div>
-<div id="image4">
-    <img src="photo3.png" alt="image2">
+<div class="form">
+<h3>Leave a message for the Patti family below:</h3>
+<form action="mailto:jpatti@syr.edu" method="POST">
+<label for="comments"></label>
+<textarea name="comments" id="comments" rows="10" cols="100"> Type your message here here.</textarea><br>
+<input type="submit" value="Send">
+</form>
 </div>
-
 </body>
 </html>

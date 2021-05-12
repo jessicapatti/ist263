@@ -1,18 +1,18 @@
 body {
-    background-color: #9494b8
+    background-color: #7395Ae
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; color: #262228;
 }
 p {
     padding: 10px;
 }
 a:link {
-    color: navy
-}
+    color: #B1A296; font-family: 'Roboto Mono', monospace;}
+
 a:hover {
-    color: navy
-}
+    color: #B1A296; font-family: 'Roboto Mono', monospace;}
+
 a:visited{ 
-    color:navy
-}
+    color:#B1A296; font-family: 'Roboto Mono', monospace;}
+
