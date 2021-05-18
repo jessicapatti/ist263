@@ -17,3 +17,5 @@ a:visited{
     color:#B1A296; font-family: 'Roboto Mono', monospace;}
 nav {font-size: 1.5em;}
 h1 {font-size: 3em;}
+img {border: 5px solid; background-color: #F0EAD6;}
+.responder {width: 200px; height: 500px;}

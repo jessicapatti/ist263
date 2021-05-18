@@ -20,11 +20,16 @@
             .form {flex: 1;order: 2;}
             .image3 {flex: 1; order: 1;}
             .form {background-color: #B1A296;
-            border-radius: 50px;}
+            border-radius: 50px; padding: 10px;}
             .nav {
                 background-color: #5D5C61 ; border-radius: 10px; text-align: center; font-family: 'Roboto Mono', monospace;
             }
         </style>
+        <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "The Patti family thanks you for your condolences!";
+          }
+          </script>
     </head>
 <body>
 <div class="nav">
@@ -45,7 +50,8 @@
 <form action="mailto:jpatti@syr.edu" method="POST">
 <label for="comments"></label>
 <textarea name="comments" id="comments" rows="10" cols="100"> Type your message here here.</textarea><br>
-<input type="submit" value="Send">
+<button onclick="myFunction()">Send</button>
+<p id="demo"></p>
 </form>
 </div>
 </body>
